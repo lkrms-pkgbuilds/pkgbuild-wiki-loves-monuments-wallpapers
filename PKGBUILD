@@ -1,6 +1,6 @@
 pkgname=wiki-loves-monuments-wallpapers
-pkgver=2022
-pkgrel=3
+pkgver=2023
+pkgrel=1
 pkgdesc="Use images from Wikipedia's 'Wiki Loves Monuments' annual photographic competition on your desktop"
 url="https://www.wikilovesmonuments.org"
 arch=('any')
@@ -126,9 +126,25 @@ source=(
     'image-123580063.jpg::https://upload.wikimedia.org/wikipedia/commons/6/6a/Malm%C3%B6hus_slott_2022.jpg'
     'image-123603027.jpg::https://upload.wikimedia.org/wikipedia/commons/b/bf/Baszta_Prochowa%2C_Zamek_Ksi%C4%85%C5%BC.jpg'
     'image-123969783.jpg::https://upload.wikimedia.org/wikipedia/commons/5/57/Mosteiro_da_Serra_do_Pilar_%281%29.jpg'
+    'image-138415741.jpg::https://upload.wikimedia.org/wikipedia/commons/e/e7/Giza_Pyramids_during_%22Forever_is_Now%22_exhibition.jpg'
+    'image-136908013.jpg::https://upload.wikimedia.org/wikipedia/commons/1/14/Marksburg_im_Winter.jpg'
+    'image-137265363.jpg::https://upload.wikimedia.org/wikipedia/commons/9/96/Premana_-_Comune_di_Premana_-_2023-09-09_19-22-03_001.jpg'
+    'image-138573625.jpg::https://upload.wikimedia.org/wikipedia/commons/5/5a/%D0%90%D0%BD%D0%B4%D1%80%D1%96%D1%97%D0%B2%D1%81%D1%8C%D0%BA%D0%B0_%D1%86%D0%B5%D1%80%D0%BA%D0%B2%D0%B0_%D0%BD%D0%B0_%D1%81%D0%B2%D1%96%D1%82%D0%B0%D0%BD%D0%BA%D1%83.jpg'
+    'image-138012608.jpg::https://upload.wikimedia.org/wikipedia/commons/2/2d/Buddha_Dhatu_Jadi_02.jpg'
+    'image-138412879.jpg::https://upload.wikimedia.org/wikipedia/commons/4/40/Haghartsin_Monastery_green.jpg'
+    'image-137728037.jpg::https://upload.wikimedia.org/wikipedia/commons/0/0b/Dejan-Valek-Petrovaradinska_tvrdjava-2019.JPG-2.jpg'
+    'image-139416530.jpg::https://upload.wikimedia.org/wikipedia/commons/8/82/%CE%9D%CE%B1%CF%8C%CF%82_%CE%91%CE%B3%CE%AF%CE%BF%CF%85_%CE%9D%CE%B9%CE%BA%CE%BF%CE%BB%CE%AC%CE%BF%CF%85_%CE%A3%CF%8D%CF%81%CE%BF%CF%85.jpg'
+    'image-138014013.jpg::https://upload.wikimedia.org/wikipedia/commons/c/c6/201_Dome_Mosque_11.jpg'
+    'image-138244001.jpg::https://upload.wikimedia.org/wikipedia/commons/a/ac/The_break_water.jpg'
+    'image-139550554.jpg::https://upload.wikimedia.org/wikipedia/commons/c/c4/Split_Rock_Light_Station.jpg'
+    'image-137874905.jpg::https://upload.wikimedia.org/wikipedia/commons/d/dd/Central_Hall_of_Antwerp_Central_Station%2C_Belgium%2C_July_2022.jpg'
+    'image-138412407.jpg::https://upload.wikimedia.org/wikipedia/commons/b/be/One_of_the_structures_associated_with_the_Independence_Mines.jpg'
+    'image-138586127.jpg::https://upload.wikimedia.org/wikipedia/commons/7/7e/%D0%A2%D0%B5%D1%80%D0%BC%D0%B5%D0%B7._%D0%9C%D0%B0%D0%B2%D0%B7%D0%BE%D0%BB%D0%B5%D0%B9_%D0%90%D1%82-%D0%A2%D0%B5%D1%80%D0%BC%D0%B5%D0%B7%D0%B8.jpg'
+    'image-139572583.jpg::https://upload.wikimedia.org/wikipedia/commons/e/e2/Xan%C9%99gah_k%C9%99nd_m%C9%99scidi_%281%29.jpg'
+    'image-137727199.jpg::https://upload.wikimedia.org/wikipedia/commons/2/2b/Zanana_Kund_Aur_Galta_Ji_Ka_Mandir.jpg'
 )
 sha1sums=(
-    'fa3f287d98abac5fd3d0e9e0140e53ab38c248d3'
+    '2b092406cf56d1e80f7bc67b0c843719c7e1e3de'
     '446f35f73cab88628be827ea4d459c8d3e9451ff'
     'f1f4b6899cc447ae8d744459171c459535265b85'
     'a6ede93e8a9d99f5fc342828d55acb2141de58e1'
@@ -246,19 +262,36 @@ sha1sums=(
     '2a48981c9ad455297b6aa41fdff3398950e020a0'
     '15b027e1c2e8928782e09ae65c18206ce6e4d96e'
     '7f2bd737a0bc67f6a6c29bf1fa843faf51f02ad7'
+    '2c1b614693c8408d50a6b219dac1f1dec365e9fb'
+    '5cdca65365d2de75a325236862fb9b969aca9495'
+    'e5feea411d3019a59bad5bc670340da995c63ec4'
+    '331d24bf617b95ebd3ac08f01e99d77b1e2d5250'
+    '30bfcb01bb53caccaed02de1a23c7aac812d3d48'
+    '3b2aad82eebd1aabfe3b7f908bef46949128402f'
+    'dd00186dbbab12c3eb4eb6408a9cdd40cb2f4ee1'
+    'a8c54309c68c12fc24e4eeaba06afd2e69d0f982'
+    'a3ccbd6528e38c379bba561f7b48095118d40711'
+    'e8a633be7459b04668f275b9f6423401ea9ef5fc'
+    '7f0e4a7676c76abc23ce5d6925f4f335a1132488'
+    '9e6031aeede371379d9035ecb83e570a50a292b6'
+    'b87cbe68ed8c6d43ca96393d2f5640a452d58b26'
+    'c05c6ba1cd66ab317d90141bb30fdaedc857918b'
+    'b87ff28815ad1b06ef93099ccab9faccab4dc0b0'
+    '0fe9c8d6dbf94d8291528a155096313ccc7f5a4a'
 )
 _index=(
-    106 107 108 109 110 111 112 113 114 115 116 117 94 74 60 47 35 22 15 1 95 83
-    61 48 36 23 16 2 96 84 75 62 49 37 24 3 97 85 76 63 38 25 17 4 98 86 77 64
-    50 26 87 65 51 39 27 18 5 99 78 66 52 40 28 19 6 100 88 67 53 29 7 89 68 54
-    41 30 20 8 101 69 55 42 21 9 102 90 79 56 31 10 103 80 70 57 32 11 104 81 71
-    58 43 33 12 91 82 72 59 44 34 13 105 92 73 45 14 93 46
+    118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 94 74 60 47
+    35 22 15 1 95 83 61 48 36 23 16 2 106 96 84 75 62 49 37 24 3 107 97 85 76 63
+    38 25 17 4 98 86 77 64 50 26 108 87 65 51 39 27 18 5 109 99 78 66 52 40 28
+    19 6 110 100 88 67 53 29 7 111 89 68 54 41 30 20 8 112 101 69 55 42 21 9 113
+    102 90 79 56 31 10 114 103 80 70 57 32 11 115 104 81 71 58 43 33 12 116 91
+    82 72 59 44 34 13 117 105 92 73 45 14 93 46
 )
 _ultrawide=(
-    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0
-    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
-    1 1 0 1 0 1 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0
-    0 0 0
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0
+    0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 0 1 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0
+    0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0
 )
 
 prepare() {
